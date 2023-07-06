@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d786d0c5-948f-4554-a124-d8194964cd1c}</ProjectGuid>
+    <RootNamespace>adprg</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Libraries\SFML-2.5.1\include;C:\SFML-2.5.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Libraries\SFML-2.5.1\lib;C:\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype.lib;winmm.lib;opengl32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;openal32.lib;sfml-audio-s-d.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ClassFolder\Components\AirplaneSupportMovement.cpp" />
+    <ClCompile Include="ClassFolder\AirplaneSupport.cpp" />
+    <ClCompile Include="ApplicationManager.cpp" />
+    <ClCompile Include="ClassFolder\Components\BGMovement.cpp" />
+    <ClCompile Include="ClassFolder\Components\AComponent.cpp" />
+    <ClCompile Include="ClassFolder\AirplanePlayer.cpp" />
+    <ClCompile Include="ClassFolder\BGObject.cpp" />
+    <ClCompile Include="ClassFolder\AGameObject.cpp" />
+    <ClCompile Include="ClassFolder\entity.cpp" />
+    <ClCompile Include="ClassFolder\Components\EnemyBehavior.cpp" />
+    <ClCompile Include="ClassFolder\EnemyAirplane.cpp" />
+    <ClCompile Include="ClassFolder\Components\EnemySwarmHandler.cpp" />
+    <ClCompile Include="ClassFolder\EmptyGameObject.cpp" />
+    <ClCompile Include="ClassFolder\ObjectPooling\APoolable.cpp" />
+    <ClCompile Include="ClassFolder\Scenes\Ascene.cpp" />
+    <ClCompile Include="ClassFolder\Physics\Collider.cpp" />
+    <ClCompile Include="ClassFolder\Physics\CollisionListener.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="ClassFolder\GameObjectManager.cpp" />
+    <ClCompile Include="ClassFolder\Components\GenericInputController.cpp" />
+    <ClCompile Include="ClassFolder\ObjectPooling\GameObjectPool.cpp" />
+    <ClCompile Include="ClassFolder\Scenes\Level1Scene.cpp" />
+    <ClCompile Include="ClassFolder\Scenes\Level2Scene.cpp" />
+    <ClCompile Include="ClassFolder\Scenes\Level3Scene.cpp" />
+    <ClCompile Include="ClassFolder\Components\GamestateManager.cpp" />
+    <ClCompile Include="ClassFolder\Screens\LoseScreen.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ClassFolder\TextureManager.cpp" />
+    <ClCompile Include="ClassFolder\SfxManager.cpp" />
+    <ClCompile Include="ClassFolder\Components\PlayerInputController.cpp" />
+    <ClCompile Include="ClassFolder\Components\PlayerMovement.cpp" />
+    <ClCompile Include="ClassFolder\Components\Renderer.cpp" />
+    <ClCompile Include="ClassFolder\Screens\MainMenuScreen.cpp" />
+    <ClCompile Include="ClassFolder\UI\UIButton.cpp" />
+    <ClCompile Include="ClassFolder\UI\UIText.cpp" />
+    <ClCompile Include="ClassFolder\Components\UIButtonInputController.cpp" />
+    <ClCompile Include="ClassFolder\Screens\Sidebar.cpp" />
+    <ClCompile Include="ClassFolder\ObjectPoolHolder.cpp" />
+    <ClCompile Include="ClassFolder\SceneManager.cpp" />
+    <ClCompile Include="ClassFolder\Scenes\MainMenuScene.cpp" />
+    <ClCompile Include="ClassFolder\Screens\PopUpScreen.cpp" />
+    <ClCompile Include="ClassFolder\Physics\PhysicsManager.cpp" />
+    <ClCompile Include="ClassFolder\Projectile\ProjectileMovement.cpp" />
+    <ClCompile Include="ClassFolder\Projectile\ProjectileObject.cpp" />
+    <ClCompile Include="ClassFolder\Screens\WinScreen.cpp" />
+    <ClCompile Include="ClassFolder\Screens\UIScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClassFolder\Components\AirplaneSupportMovement.h" />
+    <ClInclude Include="ClassFolder\AirplaneSupport.h" />
+    <ClInclude Include="ClassFolder\ObjectPooling\APoolable.h" />
+    <ClInclude Include="ApplicationManager.h" />
+    <ClInclude Include="ClassFolder\Scenes\AScene.h" />
+    <ClInclude Include="ClassFolder\UI\ButtonListener.h" />
+    <ClInclude Include="ClassFolder\Components\BGMovement.h" />
+    <ClInclude Include="ClassFolder\Components\AComponent.h" />
+    <ClInclude Include="ClassFolder\AirplanePlayer.h" />
+    <ClInclude Include="ClassFolder\BGObject.h" />
+    <ClInclude Include="ClassFolder\AGameObject.h" />
+    <ClInclude Include="ClassFolder\entity.h" />
+    <ClInclude Include="ClassFolder\Components\EnemyBehavior.h" />
+    <ClInclude Include="ClassFolder\EnemyAirplane.h" />
+    <ClInclude Include="ClassFolder\Components\EnemySwarmHandler.h" />
+    <ClInclude Include="ClassFolder\EmptyGameObject.h" />
+    <ClInclude Include="ClassFolder\Physics\Collider.h" />
+    <ClInclude Include="ClassFolder\Physics\CollisionListener.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="ClassFolder\TextureManager.h" />
+    <ClInclude Include="ClassFolder\SfxManager.h" />
+    <ClInclude Include="ClassFolder\GameObjectManager.h" />
+    <ClInclude Include="ClassFolder\Components\GenericInputController.h" />
+    <ClInclude Include="ClassFolder\Components\PlayerInputController.h" />
+    <ClInclude Include="ClassFolder\Components\PlayerMovement.h" />
+    <ClInclude Include="ClassFolder\Components\Renderer.h" />
+    <ClInclude Include="ClassFolder\Screens\MainMenuScreen.h" />
+    <ClInclude Include="ClassFolder\UI\UIButton.h" />
+    <ClInclude Include="ClassFolder\UI\UIText.h" />
+    <ClInclude Include="ClassFolder\Components\UIButtonInputController.h" />
+    <ClInclude Include="ClassFolder\Screens\Sidebar.h" />
+    <ClInclude Include="ClassFolder\ObjectPooling\GameObjectPool.h" />
+    <ClInclude Include="ClassFolder\ObjectPoolHolder.h" />
+    <ClInclude Include="ClassFolder\SceneManager.h" />
+    <ClInclude Include="ClassFolder\Scenes\MainMenuScene.h" />
+    <ClInclude Include="ClassFolder\Scenes\Level1Scene.h" />
+    <ClInclude Include="ClassFolder\Screens\PopUpScreen.h" />
+    <ClInclude Include="ClassFolder\Physics\PhysicsManager.h" />
+    <ClInclude Include="ClassFolder\Projectile\ProjectileMovement.h" />
+    <ClInclude Include="ClassFolder\Projectile\ProjectileObject.h" />
+    <ClInclude Include="ClassFolder\Scenes\Level2Scene.h" />
+    <ClInclude Include="ClassFolder\Scenes\Level3Scene.h" />
+    <ClInclude Include="ClassFolder\Components\GamestateManager.h" />
+    <ClInclude Include="ClassFolder\Screens\WinScreen.h" />
+    <ClInclude Include="ClassFolder\Screens\UIScreen.h" />
+    <ClInclude Include="ClassFolder\Screens\LoseScreen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\Ambulance.png" />
+    <Image Include="res\textures\Audi.png" />
+    <Image Include="res\textures\Avenger.png" />
+    <Image Include="res\textures\bar_1.png" />
+    <Image Include="res\textures\bed0000.png" />
+    <Image Include="res\textures\bed0001.png" />
+    <Image Include="res\textures\bed0002.png" />
+    <Image Include="res\textures\bed0003.png" />
+    <Image Include="res\textures\bed0004.png" />
+    <Image Include="res\textures\bed0005.png" />
+    <Image Include="res\textures\bed0006.png" />
+    <Image Include="res\textures\bed0007.png" />
+    <Image Include="res\textures\bench0000.png" />
+    <Image Include="res\textures\bench0001.png" />
+    <Image Include="res\textures\bench0002.png" />
+    <Image Include="res\textures\bench0003.png" />
+    <Image Include="res\textures\bench0004.png" />
+    <Image Include="res\textures\bench0005.png" />
+    <Image Include="res\textures\bench0006.png" />
+    <Image Include="res\textures\bench0007.png" />
+    <Image Include="res\textures\bgrace.jpg" />
+    <Image Include="res\textures\Black_viper.png" />
+    <Image Include="res\textures\boxGift_0000.png" />
+    <Image Include="res\textures\boxGift_0001.png" />
+    <Image Include="res\textures\boxGift_0002.png" />
+    <Image Include="res\textures\boxGift_0003.png" />
+    <Image Include="res\textures\boxGift_0004.png" />
+    <Image Include="res\textures\boxGift_0005.png" />
+    <Image Include="res\textures\boxGift_0006.png" />
+    <Image Include="res\textures\boxGift_0007.png" />
+    <Image Include="res\textures\Bullet.png" />
+    <Image Include="res\textures\b_4.png" />
+    <Image Include="res\textures\b_5.png" />
+    <Image Include="res\textures\Car.png" />
+    <Image Include="res\textures\coin0000.png" />
+    <Image Include="res\textures\coin0001.png" />
+    <Image Include="res\textures\coin0002.png" />
+    <Image Include="res\textures\coin0003.png" />
+    <Image Include="res\textures\coin0004.png" />
+    <Image Include="res\textures\coin0005.png" />
+    <Image Include="res\textures\coin0006.png" />
+    <Image Include="res\textures\coin0007.png" />
+    <Image Include="res\textures\Desert.png" />
+    <Image Include="res\textures\Eagle.png" />
+    <Image Include="res\textures\f.png" />
+    <Image Include="res\textures\Mini_truck.png" />
+    <Image Include="res\textures\Mini_van.png" />
+    <Image Include="res\textures\Police.png" />
+    <Image Include="res\textures\racetrack.png" />
+    <Image Include="res\textures\Raptor.png" />
+    <Image Include="res\textures\TitleScreenBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\Sansation.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\audio\bgm.wav" />
+    <Media Include="res\audio\carfast.wav" />
+    <Media Include="res\audio\carslow.wav" />
+    <Media Include="res\audio\EnemyGunfire.wav" />
+    <Media Include="res\audio\Explosion1.wav" />
+    <Media Include="res\audio\Explosion2.wav" />
+    <Media Include="res\audio\LaunchMissile.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

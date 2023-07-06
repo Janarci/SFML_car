@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\SfxManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\GameObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\AGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\BGObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\AirplanePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\AComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\GenericInputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\PlayerInputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\PlayerMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\BGMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\MainMenuScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\UI\UIButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\UI\UIText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\UIButtonInputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\Sidebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\EnemyBehavior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\EnemyAirplane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\ObjectPooling\GameObjectPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\ObjectPoolHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\EnemySwarmHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\EmptyGameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\ObjectPooling\APoolable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Scenes\Ascene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Scenes\MainMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Scenes\Level1Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\PopUpScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\AirplaneSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\AirplaneSupportMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Physics\PhysicsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Physics\Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Physics\CollisionListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Projectile\ProjectileMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Projectile\ProjectileObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Scenes\Level2Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Scenes\Level3Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Components\GamestateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\WinScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\UIScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFolder\Screens\LoseScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\SfxManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\GameObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\AGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\BGObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\AirplanePlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\AComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\GenericInputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\PlayerInputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\PlayerMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\BGMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\MainMenuScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\UI\UIButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\UI\UIText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\UI\ButtonListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\UIButtonInputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\Sidebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\EnemyBehavior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\EnemyAirplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\ObjectPooling\APoolable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\ObjectPooling\GameObjectPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\ObjectPoolHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\EnemySwarmHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\EmptyGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Scenes\AScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Scenes\MainMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Scenes\Level1Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\PopUpScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\AirplaneSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\AirplaneSupportMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Physics\PhysicsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Physics\Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Physics\CollisionListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Projectile\ProjectileMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Projectile\ProjectileObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Scenes\Level2Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Scenes\Level3Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Components\GamestateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\WinScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\UIScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFolder\Screens\LoseScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\Eagle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bed0007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bench0007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\boxGift_0007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0000.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0001.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0002.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0003.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0004.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0005.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0006.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\coin0007.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Desert.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Raptor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\b_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\b_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bar_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Avenger.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\TitleScreenBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\racetrack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Black_viper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Audi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Ambulance.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Car.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Mini_truck.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Mini_van.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Police.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bgrace.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\Sansation.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\audio\EnemyGunfire.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\Explosion1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\Explosion2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\LaunchMissile.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\bgm.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\carfast.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\audio\carslow.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+  </ItemGroup>
+</Project>
